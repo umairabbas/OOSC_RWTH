@@ -11,5 +11,9 @@ public class ErasmusStudent extends Student  {
 	public Subject getSubject(){
 		return subject;
 	}
+	
+	public String getPersonName(){
+		return this.StdName + ", - Erasmus";
+	}
 
 }

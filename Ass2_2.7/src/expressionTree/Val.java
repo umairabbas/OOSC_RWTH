@@ -1,3 +1,4 @@
+package expressionTree;
 public class Val extends Node{
 
 	private final double val;
